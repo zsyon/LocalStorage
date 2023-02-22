@@ -8,4 +8,10 @@ function sayıArttır(){
   sayi = Number(sayi) + 1
   document.getElementById("sayı").innerHTML = sayi
   console.log(sayi)
+
+  let arttır = localStorage.getItem('sayi', sayi);
+  localStorage.getItem('sayi')
+
+
+
 }
