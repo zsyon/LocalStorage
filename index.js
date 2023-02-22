@@ -9,9 +9,7 @@ function sayıArttır(){
   document.getElementById("sayı").innerHTML = sayi
   console.log(sayi)
 
-  let arttır = localStorage.getItem('sayi', sayi);
+  let arttır = localStorage.setItem('sayi', sayi);
   localStorage.getItem('sayi')
-
-
 
 }
