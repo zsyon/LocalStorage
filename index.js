@@ -21,4 +21,8 @@ function sayıAzalt(){
   sayi = Number(sayi) - 1
   document.getElementById("sayı").innerHTML = sayi
   console.log(sayi)
+
+  let arttır = localStorage.setItem('sayi', sayi);
+  localStorage.getItem('sayi')
+  
 }
