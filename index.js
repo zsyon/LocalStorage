@@ -1,8 +1,11 @@
-let arttır = document.addEventListener(`click`, function(){
-  
-  caunter = document.getElementById("sayı").innerHTML
-  sayi = Number(caunter) + 1
-  document.getElementById("sayı").innerHTML = caunter
-  
+arttır = document.getElementById("arttır")
+azalt = document.getElementById("azalt")
 
-})
+function sayıArttır(){
+  console.log("aaaa")
+  sayi = document.getElementById("sayı").innerHTML
+  console.log(sayi)
+  sayi = Number(sayi) + 1
+  document.getElementById("sayı").innerHTML = sayi
+  console.log(sayi)
+}
